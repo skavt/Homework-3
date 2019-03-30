@@ -1,8 +1,8 @@
 <?php
 
-require_once 'template.php';
+require_once 'Template.php';
 
-$temp = new template('src/main.php');
+$temp = new Template('src/main.php');
 
 $temp->set('username', 'skavt');
 $temp->set('age', '19');
